@@ -1,5 +1,6 @@
 <b>How it works</b>
-<ol>The code connects to your network using the WiFi library.
+<ol>
+ <li> The code connects to your network using the WiFi library.</li>
 <li>It initializes the WiFi sniffer using the wifi_sniffer_init() function.</li>
 <li>In the loop() function, it sniffs network packets using the wifi_sniffer_get_packet() function.</li>
 <li>If a packet is received, it analyzes the packet using the analyzePacket() function.</li>
@@ -13,6 +14,3 @@ Please ensure you have the necessary permissions and follow applicable laws and 
 
 
 
-
-Share
-New Chat
